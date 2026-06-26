@@ -1,0 +1,10 @@
+{
+  "name": "Carl",
+  "age": 21,
+  "city": "Muntinlupa",
+  "hobbies": [
+    "Workout",
+    "Gaming",
+    "Coding"
+  ]
+}

@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using YourNamespace;
 
 namespace ConsoleApp1
 {
@@ -23,7 +24,10 @@ namespace ConsoleApp1
         {
             _availableReaders = new List<IFileReader>
             {
-                new TextFileReader()
+                 new TextFileReader(),
+                 new XmlFileReader(),
+                 new JsonFileReader(),
+                 new CsvFileReader()
                 // TODO: Register CsvFileReader, JsonFileReader, XmlFileReader here
             };
         }

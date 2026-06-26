@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person>
+    <name>Carl</name>
+    <age>21</age>
+    <city>Muntinlupa</city>
+    <hobbies>
+        <hobby>Workout</hobby>
+        <hobby>Gaming</hobby>
+        <hobby>Coding</hobby>
+    </hobbies>
+</person>
